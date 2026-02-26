@@ -34,4 +34,5 @@ What `run_app.bat` does:
 
 
 Cleanup
+
 If you want to remove everything after you are done, you can do so by deleting the `venv` folder.
