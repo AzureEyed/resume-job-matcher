@@ -10,13 +10,20 @@ Features
 - Upload PDFs and auto-extract text with pdfplumber
 - Generate simple recommendations for missing skills
 
+Project Structure
+- `app.py` Streamlit UI
+- `src/preprocessing.py` text cleaning
+- `src/skills.py` skill list and extraction
+- `src/similarity.py` embedding similarity
+- `src/matcher.py` end-to-end matching
+- `run_app.bat` one click runner
 
-Run Without CLI (Windows)
+Run (Windows Only)
 Windows-specific one-click runner so users do not have to type commands.
 1. Double-click `run_app.bat`
 2. ctrl + c to end streamlit session from CLI when done in the browser.
 
-What `run_app.bat` Does
+What `run_app.bat` does:
 1. Checks that Python is available in PATH.
 2. Creates a virtual environment at `venv` if it does not already exist.
 3. Uses `venv\Scripts\python.exe` for all following commands (installs stay inside the venv).
@@ -25,15 +32,6 @@ What `run_app.bat` Does
 6. Downloads `en_core_web_sm` only if it is missing.
 7. Launches the app with `streamlit run app.py`.
 
-
-
-Project Structure
-- `app.py` Streamlit UI
-- `src/preprocessing.py` text cleaning
-- `src/skills.py` skill list and extraction
-- `src/similarity.py` embedding similarity
-- `src/matcher.py` end-to-end matching
-- `run_app.bat` one click runner
 
 Cleanup
 If you want to remove everything after you are done, you can do so by deleting the `venv` folder.
