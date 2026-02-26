@@ -1,0 +1,26 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+build/
+dist/
+
+# Tool and editor metadata
+.vscode/
+.idea/
+.pytest_cache/
+
+# Local env/config
+.env
+.env.*
+
+# Project-local data and personal files
+data/
+other/
