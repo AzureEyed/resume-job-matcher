@@ -1,5 +1,6 @@
 AI Resume & Job Match Analyzer
-Built an NLP-based system that analyzes resumes against job descriptions using transformer embeddings and cosine similarity. It extracts technical skills, computes match scores, and surfaces skill gaps with a simple Streamlit UI.
+
+An NLP-based system that analyzes resumes against job descriptions using transformer embeddings and cosine similarity. It extracts technical skills, computes match scores, and surfaces skill gaps with a simple Streamlit UI.
 
 Features
 - Clean and normalize text with spaCy
